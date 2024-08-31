@@ -13,7 +13,7 @@ public class StudentDao {
 
     public static Connection getConnection() throws SQLException, ClassNotFoundException {
         Class.forName("com.mysql.cj.jdbc.Driver");
-        return DriverManager.getConnection("jdbc:mysql://localhost:3306/student_information", "root", "123456789");
+        return DriverManager.getConnection("jdbc:mysql://localhost:3306/student_information", "", "");
     }
 
     public boolean addstudent(Student stud) {
