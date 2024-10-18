@@ -1,4 +1,4 @@
-# studentLogin
+# StudentLogin
 
 ## How It Works
 
